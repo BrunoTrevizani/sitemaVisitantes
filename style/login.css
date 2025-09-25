@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Fundo da página */
+body {
+    background-color: #f1f3f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container do login */
+.login-container {
+    background-color: #fff;
+    padding: 50px 40px;   
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    width: 100%;
+    max-width: 480px;     
+    text-align: center;
+}
+
+/* Título */
+.login-container h2 {
+    margin-bottom: 30px;
+    color: #007BFF;
+    font-size: 28px;      
+}
+
+/* Labels */
+.login-container label {
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #000000;
+}
+
+/* Campos de texto */
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 14px;        
+    margin-bottom: 25px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+/* Botão */
+.login-container .btn {
+    width: 100%;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 14px;       
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 17px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.login-container .btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.03);
+}
+
+/* Mensagem de erro */
+.erro {
+    margin-top: 20px;
+    color: red;
+    font-size: 15px;
+}
+
+.cadastro-link {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+}
+
+.cadastro-link a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cadastro-link a:hover {
+    text-decoration: underline;
+}

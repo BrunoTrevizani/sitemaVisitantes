@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+    text-align: left;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #007BFF;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #444;
+}
+
+input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px;
+    background: #007BFF;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.sucesso {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Corrigido: agora links com .btn ficam como botões azuis */
+a.btn {
+    display: block;
+    margin-top: 15px;
+    padding: 12px;
+    background: #007BFF;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+a.btn:hover {
+    background: #0056b3;
+}
+
+a.voltar {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a.voltar:hover {
+    text-decoration: underline;
+}

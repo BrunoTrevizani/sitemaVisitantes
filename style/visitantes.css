@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Fundo */
+body {
+    background-color: #f1f3f6;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Container da mensagem */
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* Texto da mensagem */
+.container p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+/* Botões em formato de link */
+.button-link {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 12px 20px;
+    margin: 10px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.button-link:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
